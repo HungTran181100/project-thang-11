@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameSpaces's Wiki - The Legend of Zelda</title>
+    <!-- Bootstrap CSS -->
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="wiki.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top nav1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="fa-bounce"
+              style="width: 50px; height: 50px"
+              src="img/logo.png"
+              alt="GameSpaces Logo"
+              class="logo"
+            />
+          </a>
+          <div class="container-fluid">
+            <form class="d-flex col-12 col-md-6" role="search">
+              <input
+                class="form-control me-2 search-bar"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarDropdownContent">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="font-weight: bold"
+                >
+                  About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Main Series</a></li>
+                  <li><a class="dropdown-item" href="#">Games</a></li>
+                  <li><a class="dropdown-item" href="#">Reissues</a></li>
+                  <li><a class="dropdown-item" href="#">Spinoffs</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="font-weight: bold"
+                >
+                  More Content
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Characters</a></li>
+                  <li><a class="dropdown-item" href="#">Locations</a></li>
+                  <li><a class="dropdown-item" href="#">Items</a></li>
+                  <li><a class="dropdown-item" href="#">Enemies</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  style="font-weight: bold; margin-right: 15px"
+                  >Guides</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="margin fa-flip fa-solid fa-comment"></i
+                  >Community</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="margin-icon fa-solid fa-beat fa-cart-shopping"></i
+                  >Resources</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="margin-icon fa-bounce fa-question"></i>Help</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+      <h1>
+        <img src="img/triforce.png" style="width: 40px; height: auto" />Welcome
+        to the Zelda Wiki!
+      </h1>
+      <p>
+        The <a class="a-link" href="#">NintendoGameSpaces team</a> gives you
+        this encyclopedia about
+        <a class="a-link" href="#">The Legend of Zelda™</a> series that contains
+        a vast amount of information from the basics of this world-wided-beloved
+        game series.
+      </p>
+
+      <!-- Image aligned with content -->
+      <div class="row container-fluid">
+        <div class="img-display col-8">
+          <img class="img-fluid" src="img/botw2.png" alt="Image description" />
+        </div>
+        <div class="col">
+          <p>
+            <img
+              src="img/hyrule-symbol.png"
+              style="width: 40px; height: 40px; margin-right: 10px"
+            />You can find information from
+            <a class="a-infor" href="#">Characters</a>,<a
+              class="a-infor"
+              href="#"
+            >
+              races</a
+            >,<a class="a-infor" href="#"> quests</a> ,<a
+              class="a-infor"
+              href="#"
+            >
+              songs</a
+            >, <a class="a-infor" href="#">enemies</a> ,<a
+              class="a-infor"
+              href="#"
+            >
+              items</a
+            >
+            ,... within all the series of Zelda games by
+            <a class="a-infor" href="#">Nintendo.</a>
+          </p>
+          <p>
+            Like, did you know that
+            <a class="a-infor" href="#">Dark Link</a> possesses the same amount
+            of health as <a class="a-infor" href="#">Link</a> in
+            <a class="a-infor" href="#">Ocarina of Time</a> , and that the
+            number of hits required to defeat him equals the number of
+            <a class="a-infor" href="#">Heart Containers</a> Link has?
+          </p>
+          <img
+            class="img-display2"
+            src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/3/38/Link2.png"
+            style="width: 250px; height: 250px; border-radius: 20px"
+            alt="totk"
+          />
+        </div>
+      </div>
+
+      <div class="seperator"></div>
+      <h2>
+        <img
+          src="img/hyrule-symbol.png"
+          style="width: 50px; height: 50px; padding-right: 10px"
+        />The Series
+      </h2>
+
+      <div class="row cards-series">
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/the-legend-of-zelda-1987.png"
+              class="card-img-top img-height hover-darken"
+              alt="The Legend of Zelda"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">The Legend of Zelda (1987)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem; height: auto">
+            <img
+              src="img/adventure-of-link.png"
+              class="card-img-top img-height hover-darken"
+              alt="The Adventure of Link"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">The Adventure of Link (1988)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/a-link-to-the-past.png"
+              class="card-img-top img-height hover-darken"
+              alt="A Link to the Past"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">A Link to the Past (1992)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/link's-awakening 1993.png"
+              class="card-img-top img-height hover-darken"
+              alt="Link's Awakening"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Link's Awakening (1993)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/ocarina of time.png"
+              class="card-img-top img-height hover-darken"
+              alt="Ocarina of Time"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Ocarina of Time (1998)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/majoras mask.png"
+              class="card-img-top img-height hover-darken"
+              alt="Majora's Mask"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Majora's Mask (2000)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/oracle-of-seasons.png"
+              class="card-img-top img-height hover-darken"
+              alt="OOS"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Oracle of Seasons (2001)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/oracle of ages.png"
+              class="card-img-top img-height hover-darken"
+              alt="OOA"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Oracle of Ages (2001)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/four swords 2002.png"
+              class="card-img-top img-height hover-darken"
+              alt="FS"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Four Swords (2002)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/the wind waker.png"
+              class="card-img-top img-height hover-darken"
+              alt="WW"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">The Wind Waker (2003)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/four swords.png"
+              class="card-img-top img-height hover-darken"
+              alt="FSA"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Four Swords Adventures (2004)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/the minish cap.png"
+              class="card-img-top img-height hover-darken"
+              alt="MC"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">The Minish Cap (2005)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/twilight princess.png"
+              class="card-img-top img-height hover-darken"
+              alt="TP"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">The Twilight Princess (2006)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/phantom hourglass.png"
+              class="card-img-top img-height hover-darken"
+              alt="PH"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Phantom Hourglass (2007)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/spirit tracks.png"
+              class="card-img-top img-height hover-darken"
+              alt="STracks"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Spirit Tracks (2009)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/skyward sword.png"
+              class="card-img-top img-height hover-darken"
+              alt="SSword"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Skyward Sword (2011)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/a link between worlds.png"
+              class="card-img-top img-height hover-darken"
+              alt="ALBW"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">A Link between Worlds (2013)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/triforce hero.png"
+              class="card-img-top img-height hover-darken"
+              alt="Triforce Heroes"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Triforce Heroes (2015)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/botw.png"
+              class="card-img-top img-height hover-darken"
+              alt="Botw"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Breath of the Wild (2017)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/totk.png"
+              class="card-img-top img-height hover-darken"
+              alt="totk"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Tears of the Kingdom (2023)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 set">
+          <div class="card mb-4" style="width: 18rem">
+            <img
+              src="img/eow.png"
+              class="card-img-top img-height hover-darken"
+              alt="eow"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <a class="a-game" href="#">Echoes of Wisdom (2024)</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="seperator"></div>
+
+      <h2>
+        <img
+          src="img/nintendo-switch-icon.png"
+          style="width: 40px; height: 40px; margin-right: 10px"
+          alt="nintendo-switch-icon"
+        />categories
+      </h2>
+      <div class="catergories-list">
+        <div class="row">
+          <div class="col-3">
+            <ul>
+              <li><a class="a-game" href="#">Bosses</a></li>
+              <li><a class="a-game" href="#">Characters</a></li>
+              <li><a class="a-game" href="#">Dungeons</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <li><a class="a-game" href="#">Enemies</a></li>
+              <li><a class="a-game" href="#">Items</a></li>
+              <li><a class="a-game" href="#">Locations</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <li><a class="a-game" href="#">Merchandise</a></li>
+              <li><a class="a-game" href="#">Mini Games</a></li>
+              <li><a class="a-game" href="#">Plot</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <li><a class="a-game" href="#">Creatures - Races</a></li>
+              <li><a class="a-game" href="#">Quests</a></li>
+              <li><a class="a-game" href="#">Music</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="seperator"></div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Branding Section -->
+          <div class="col-md-3">
+            <h3 class="mb-3 brand">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </h3>
+            <h5 class="mb-3">
+              <img
+                class="fa-bounce"
+                src="img/logo.png"
+                alt="Logo"
+                class="logo"
+                style="width: 40px; color: white"
+              />
+              NintendoGameSpaces
+            </h5>
+            <p class="text-muted" style="color: white">
+              The perfect place for nitendo fans all over the world, offering
+              best experiences.
+            </p>
+            <p class="text-muted mb-0">
+              A project by George.
+              <br />
+              Currently v1.0.0
+            </p>
+          </div>
+
+          <!-- Links Section -->
+          <div class="col-md-2">
+            <h5 class="text">Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="http://127.0.0.1:5500/SPCK/index.html#"
+                  class="text-muted"
+                  >Home</a
+                >
+              </li>
+              <li><a href="#" class="text-muted">About us</a></li>
+              <li><a href="#" class="text-muted">Chats</a></li>
+              <li><a href="#" class="text-muted">Store</a></li>
+            </ul>
+          </div>
+
+          <!-- Guides Section -->
+          <div class="col-md-2">
+            <h5 class="text">Guides</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-muted">Getting started</a></li>
+              <li><a href="#" class="text-muted">Games Wiki</a></li>
+              <li><a href="#" class="text-muted">Webpage Tutorial</a></li>
+              <li><a href="#" class="text-muted">Game Infor</a></li>
+              <li><a href="#" class="text-muted">Sites</a></li>
+            </ul>
+          </div>
+
+          <!-- Community Section -->
+          <div class="col-md-2">
+            <h5 class="text">Contacts</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-muted">Facebook</a></li>
+              <li><a href="#" class="text-muted">Instagram</a></li>
+              <li><a href="#" class="text-muted">Gmail</a></li>
+              <li><a href="#" class="text-muted">Github</a></li>
+              <li><a href="#" class="text-muted">Discord</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
